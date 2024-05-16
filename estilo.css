@@ -1,0 +1,157 @@
+/* estilo css - Aula 14 */
+/* Paleta Ifood 
+ #ea1d2c 
+ #3e3e3e 
+ #f2f2f2 */
+
+ @font-face {
+   font-family: "coolvetica";
+   src: url(coolvetica\ condensed\ rg.otf)
+ }
+
+
+ :root {
+    --cor1-principal: #040404;
+    --cor2-texto: #3e3e3e;
+    --cor3-fundo: #f2f2f2;
+    --fonte-destaque: coolvetica;
+    --fonte-texto: Poppins, 'Segoe UI'
+ }
+#parte1, #parte2, #parte3, #parte4, #parte5, #parte6 {
+   display: flex;
+   align-items: center;
+} 
+
+ #parte1 {
+    background-color: rgb(26, 24, 24);
+    color: var(--cor3-fundo);
+    display: flex;
+   flex-wrap: wrap;
+ }
+
+ #parte1 p{
+   width: 60vw;
+ }
+
+ #parte1 h1{
+   width: 100%;
+   margin: 5vh;
+ }
+#parte1 img {
+   width: 25vw;
+   margin: 0 5vh 5vh 5vh;
+}
+ #parte2 {
+    background-color: var(--cor3-fundo);
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ #parte2 p{
+   width: 50vw;
+ }
+
+ #parte2 h1{
+   width: 100%;
+   margin: 5vh;
+ }
+#parte2 img {
+   width: 30vw;
+   margin: 0 5vh 5vh 5vh;
+}
+ #parte3 {
+    height: 400px;
+    background-color: firebrick;
+    color: var(--cor2-texto);
+    display: flex;
+    flex-wrap: wrap;
+ }
+ #parte3 p{
+   width: 60vw;
+   color: var(--cor3-fundo);
+ }
+
+ #parte3 h1{
+   width: 100%;
+   margin: 5vh;
+ }
+#parte3 img {
+   width: 25vw;
+   margin: 0 5vh 5vh 5vh;
+}
+ #parte4 {
+   height: 430px;
+   background-color: rgb(75, 75, 160);
+   color: var(--cor2-texto);
+   display: flex;
+   flex-wrap: wrap;
+}
+#parte4 p{
+   width: 60vw;
+   color: var(--cor3-fundo);
+ }
+
+ #parte4 h1{
+   width: 100%;
+   margin: 5vh;
+ }
+#parte4 img {
+   width: 25vw;
+   margin: 0 5vh 5vh 5vh;
+}
+#parte5 {
+   height: 400px;
+   background-color: rgb(10, 130, 243);
+   color: var(--cor2-texto);
+   display: flex;
+   flex-wrap: wrap;
+}
+#parte5 p{
+   width: 60vw;
+   color: var(--cor3-fundo);
+ }
+
+ #parte5 h1{
+   width: 100%;
+   margin: 5vh;
+ }
+#parte5 img {
+   width: 25vw;
+   margin: 0 5vh 5vh 5vh;
+}
+#parte6 {
+   height: 440px;
+   background-color: yellow;
+   color: var(--cor2-texto);
+   display: flex;
+   flex-wrap: wrap;
+}
+#parte6 p{
+   width: 60vw;
+   color: black;
+ }
+
+ #parte6 h1{
+   width: 100%;
+   margin: 5vh;
+ }
+#parte6 img {
+   width: 25vw;
+   margin: 0 5vh 5vh 5vh;
+}
+ h1 {
+   font-family: var(--fonte-destaque);
+   font-weight: 100;
+   font-size: 4em;
+   font-style: oblique;
+   font-stretch: extra-condensed;
+ }
+p {
+   font-family: var(--fonte-texto);
+   line-height: 20px;
+   word-spacing: 1px;
+   letter-spacing: 1px;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   text-align: justify;
+}
